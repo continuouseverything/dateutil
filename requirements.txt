@@ -8,3 +8,4 @@ pytz
 jsonschema<3.0.0
 pylint
 pytest
+requests
