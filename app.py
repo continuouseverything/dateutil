@@ -19,12 +19,6 @@ def home():
 
     return redirect("/apidocs")
 
-@app.route('/showhelp', methods = ['GET'])
-def showhelp():
-    """/ Show help: /showhelp"""
-    return render_template("index.html")
-
-
 @app.route("/now", methods = ['GET'])
 def now():
     """Returns for some cities local time
