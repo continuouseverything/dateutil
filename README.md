@@ -10,3 +10,4 @@ The application provides an API and Swagger, describing the API usage.
 ## Execution
 * Standalone:  `python3 app.py`
 * Run in Docker:  `./docker.sh`
+
