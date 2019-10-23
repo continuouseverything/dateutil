@@ -21,14 +21,14 @@ def home():
 
 @app.route("/now", methods = ['GET'])
 def now():
-    """Returns for some cities local time
+    """Returns local time of cities.
 
 
         GET /api/now
         ---
         responses:
             200:
-                description: Returns for some cities the local time.
+                description: Returns local times.
 
 
     """
